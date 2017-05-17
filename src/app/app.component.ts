@@ -17,6 +17,5 @@ export class AppComponent {
   
     setupCharts() {
         const chart = dc.barChart('#test');
-        chart.width(768);
     }
 }
